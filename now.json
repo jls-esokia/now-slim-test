@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "slim-test",
+    "builds": [{
+        "src": "*.php",
+        "use": "@now/php"
+    }],
+    "github": {
+        "enabled": true
+    },
+    "routes": [{
+        "src": "/.*", 
+        "dest": "/"
+    }]
+}
